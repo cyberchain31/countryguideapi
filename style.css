@@ -105,3 +105,21 @@ footer {
 .bottom-link:hover {
   background-color: #0056b3; /* Tmavšia modrá pri prechode myšou */
 }
+
+/* Responzívny dizajn pre malé obrazovky */
+@media (max-width: 480px) {
+  .search-wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+  }
+
+  #country-inp, #search-btn {
+      width: 100%;
+  }
+
+  #search-btn {
+      padding: 12px;
+      font-size: 18px;
+  }
+}
